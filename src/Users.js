@@ -16,6 +16,9 @@ export default class Users extends Component {
             .then(res => res.json())
             .then(data => this.setState({ posts: data.results}))
     }
+    componentDidMount() {
+        document.title = "User Index";
+    }
 
 
     render() {

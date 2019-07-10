@@ -17,6 +17,9 @@ export default class UserDetails extends Component {
         
         
     }
+    componentDidMount() {
+        document.title = "User detail";
+    }
     
     
     render() {
