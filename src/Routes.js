@@ -7,7 +7,7 @@ export default class Routes extends Component {
     render() {
         return (
             <div>
-                 <Route  path='/' component={Users} />
+                 <Route exact path='/' component={Users} />
                  <Route exact path='/user/:username' component={UserDetails}/>
             </div>
         )
